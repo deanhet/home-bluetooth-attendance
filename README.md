@@ -11,7 +11,7 @@ This is more a collection of scripts/code over the internet and I've found bundl
 
 ## Getting started
 * Get your bluetooth server/pi configured by following [this guide](http://www.instructables.com/id/Raspberry-Pi-Bluetooth-InOut-Board-or-Whos-Hom/?ALLSTEPS). Grab the MAC addresses you want and edit `inoutboard.py` accordingly.
-* If you're using a raspberry pi, complete the [following steps](https://github.com/noelportugal/google-home-notifier#raspberry-pi)
+* Complete the [following steps](https://github.com/noelportugal/google-home-notifier#raspberry-pi)
 * Clone this repo and run `npm install`
 
 ## After "npm install"
@@ -37,4 +37,8 @@ Browser.defaultResolverSequence = [
 
 Running should just be a matter of `python inoutboard.py`. The script currently checks (and will ping!) your google home every 15 seconds regardless of previous statuses. This is just an inital proof of concept right now, smarter and less annoying statuses and notifications will be coming soon.
 
-
+### Work in progress
+* Way easier config and smarter setup
+* Better installation instructions
+* Ability to remember who's currently in and only notify when that changes
+* Plugin notifications
